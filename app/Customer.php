@@ -4,9 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Service extends Model
+class Customer extends Model
 {
-    // protected $fillable = ['name'];
-    
     protected $guarded = [];
 }
