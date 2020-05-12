@@ -1,6 +1,7 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+// use App\Mail\WelcomeMail;
+// use Illuminate\Support\Facades\Mail;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/email', function () {
+//     Mail::to('email@email.com')->send(new WelcomeMail());
+    
+//     return new WelcomeMail();
+// });
 
 Route::get('/about', 'HelloController@about');
 
